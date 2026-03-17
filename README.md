@@ -1,0 +1,1 @@
+Jogo de adivinhação interativo onde o jogador deve descobrir um número secreto entre 1 e 100. Desenvolvido com HTML, CSS e JavaScript, o site é animado, responsivo e apresenta feedback em tempo real (muito alto, muito baixo ou correto)
