@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo de Adivinhação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Introdução -->
+  <section class="intro fade-in">
+    <h1>Jogo de Adivinhação</h1>
+    <p>Um número secreto entre <strong>1 e 100</strong> foi escolhido! Consegue adivinhar?</p>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section class="features fade-in">
+    <h2>Como jogar</h2>
+    <ul>
+      <li>Escreva um número entre 1 e 100.</li>
+      <li>Clique em “Enviar” e veja se o número é muito alto, muito baixo ou correto.</li>
+      <li>O número secreto é escolhido automaticamente ao carregar a página.</li>
+      <li>Dica: use o máximo de 10 tentativas!</li>
+    </ul>
+  </section>
+
+  <!-- Jogo -->
+  <section class="game fade-in">
+    <h2>📚 Tente adivinhar!</h2>
+    <div class="game-wrapper">
+      <input type="number" id="guess" placeholder="Seu palpite (1-100)" min="1" max="100" />
+      <button id="btnGuess" class="btn">Enviar</button>
+      <div id="message" class="message">Boa sorte! Tente um número.</div>
+      <div id="attempts" class="hint">Tentativas: 0</div>
+    </div>
+  </section>
+
+  <!-- Dono do site -->
+  <section class="owner fade-in">
+    <h2>Dono do site</h2>
+    <p><strong>Fernando Lima</strong></p>
+    <p>
+      Contato:
+      <a href="https://www.linkedin.com/in/fernando-de-oliveira-a8bbb1278" target="_blank">
+        www.linkedin.com/in/fernando-de-oliveira-a8bbb1278
+      </a>
+    </p>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
